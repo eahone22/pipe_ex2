@@ -1,0 +1,68 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+install.packages("devtools")
+library("devtools")
+```
+
+# 6.9.19
+
+###Targeting PI3K Signaling in Acute Lymphoblastic Leukemia  doi:10.3390/ijms20020412
+
+I. Adults for some reason have chemotherapeutic resistance; children survival rates for this have increased. 
+  A. The bone marrow promotes cell adhesion-mediated drug resistance (CAM-DR) in leukemia cells.
+        a. Bone marrow is the most common site of relapse
+            1. Associated with worse prognosis
+II. Bone marrow makeup
+  A. Fibroblastic stromal cells
+  B. Endothelial cells
+  C. Growth factors
+  D. Cytokines
+  E. Hormones
+      a. When cells become malignant, biological changes happen in the BM within stromal cells particularly.
+      b. Pro survival signals of leukemia cells
+      c. In vitro studies show that when leukemia cells and stromal cells bind, it promotes CAMDR which prevents apoptosis of          ALL cells. 
+III. Pathways implicated in ALL
+  A. **AKT**
+  B. ERK 1/2
+  C. STAT3
+  D. Notch
+  
+###Gene expression signatures define novel oncogenic pathways in T cell acute lymphoblastic leukemia ; doi : https://doi.org/10.1016/S1535-6108(02)00018-1
+
+I. T cell leukemias and oncogenes
+  A. Can arise from oncogenes activated by specific chromosomal translocations involving T cell receptor genes.
+  B. Some include HOX11, TAL1, LYL1, LMO1, LMO2
+  C. Patients with T ALL have high circulating blast cell counts, mediastinal masses, and central nervous system involvement.
+    a. Very little ALL patients had high levels of HOX11, while many had high levels of TAL1 mRNA
+    b. Majority of the cases with high levels of TAL1 oncogene expression lacked cytogenetic molecular evidence of                  rearrangements that affect the TAL1 locus
+
+###The dual specificity P13K/mTOR inhibitor PKI-587 displays efficacy against T cell acute lymphoblastic leukemia DOI: 10.1016/j.canlet.2019.05.012
+
+###CXCR4 is required for leukemia initiating cella ctivity in T cell acute lymphoblastic leukemia https://doi.org/10.1016/j.ccell.2015.05.003
+
+I. When calcineurin is inactivated, t cell ALL cells have impaired migration patterns
+  A. Also exhibit other phenotypes like increased apoptosis, inhibition of cell proliferation, and inhibition of leukemia         initiating cell activity (LIC)
+  B. Demonstrate the cheemikines receptor CXCR4 is essential to the LIC activity of TALL cells both in NOTCH induced mouse T      ALL and human T ALL xenograft models
+
+II. Introduction
+  A. Calcineurin (PPP3) is a phosphatase that is activated in TALL
+      a. It regulates the physical and function interaction that TALL cells establish with other cells in the tumor                   microenvironment
+      b. Calcineurin dependent adhesive and migratory properties may regulate the ability of cells to reach their stromal             niches
+  B. In this study...
+      a. They wanted to identify a link between calcineurin activity and the response of TALL cells to signals and find               whether disrupting the signals can impinge upon leukemia development
+      
+III. Results
+  A. CXCL12 triggered its CXCR4 receptor to activate integrin receptorrs which are essential to transmigration of T cells         across barriers
+  B. CXCR4 were expressed at the cell surface in a panel of ICN1 TALL cells 
+  
+  
+
+
+
+
+
+
